@@ -1,3 +1,10 @@
+.container {
+  width: 825px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #article {
   border-top: 4px solid black;
   border-left: 4px solid black;
@@ -12,6 +19,10 @@
   font-size: 26px;
   text-transform: uppercase;
   background-color: #eee;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .p1-class {
@@ -54,12 +65,14 @@ ul {
 .button {
   color: white;
   background-color: black;
-  border: 1px 1px 1px 1px black;
-  text-align: center;
-  font-size: 16px;
+  border: none;
+  font-size: 20px;
   text-transform: uppercase;
   transition-duration: 0.4s;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 4px solid black;
 }
 
 .button:hover {
