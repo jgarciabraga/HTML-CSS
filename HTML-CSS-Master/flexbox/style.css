@@ -21,6 +21,9 @@ body {
 }
 
 .main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #f7f7f7;
   /* padding: 20px;
   padding-left: 40px;
@@ -40,6 +43,7 @@ article {
 }
 
 .post-header {
+  display: flex;
   margin-bottom: 40px;
   /* position: relative; */
 }
@@ -197,7 +201,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
